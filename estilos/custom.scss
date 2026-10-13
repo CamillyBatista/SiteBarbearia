@@ -1,0 +1,59 @@
+$bg-color:#005CFF;
+$primary:#FFCC00;
+$secondary:#FF8B00;
+$tertiary:#324F80;
+$btn-color:#807340;
+
+@use "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.abertura{
+    background-image: url("../imagens/espaçofundo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    padding: 3rem 0;
+
+    position: relative;
+    isolation: isolate;
+
+    &::before{
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0,0, 0, 0.7);
+        z-index: -1;
+    }
+}
+.sobre{
+    background-image: url("../imagens/maquinas.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    padding: 3rem 0;
+
+    position: relative;
+    isolation: isolate;
+
+    &::before{
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0,0, 0, 0.7);
+        z-index: -1;
+    }
+}
+
+.meu-carrossel{
+    max-width: 40rem;
+    margin: 0 auto;
+
+    &img{
+        width: 100%;
+        height: 20rem;
+        object-fit: cover;
+    }
+}
