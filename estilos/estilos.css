@@ -11905,4 +11905,8 @@ textarea.form-control-lg {
   object-fit: cover;
 }
 
+.formulario-claro .form-label {
+  color: #f1f1f1 !important;
+}
+
 /*# sourceMappingURL=estilos.css.map */
