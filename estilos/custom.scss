@@ -63,3 +63,13 @@ $btn-color:#807340;
         color: #f1f1f1 !important;
     }
 }
+
+
+#mensagem-sucesso {
+    margin-top: 10px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(15px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
